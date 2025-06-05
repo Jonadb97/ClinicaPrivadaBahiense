@@ -46,11 +46,21 @@
 
     <div class="hero">
 
-        <h1 data-aos="fade-up"><span id="typed"></span></h1>
+        <video id="introVideo" autoplay muted>
+            <source src="./assets/videos/videoHeader.mp4" type="video/mp4">
+        </video>
+
+        <script>
+            document.getElementById('introVideo').play();
+        </script>
+
+        <!--<h1 data-aos="fade-up"><span id="typed"></span></h1>
+        
+        
         <div id="typed-strings">
             <h1>Clínica Privada Bahiense</h1>
         </div>
-
+    -->
         <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-arrow-down-circle-fill animate__animated animate__pulse animate__infinite" viewBox="0 0 16 16">
             <a href="#nosotros">
                 <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293z" /></a>
@@ -61,7 +71,7 @@
         <h2>Sobre nosotros</h2>
 
         <div class="imagen-nosotros">
-            <img src="./assets/img/stock/nurse-doctor-team-ready-work-day.jpg" alt="">
+            <img src="./assets/img/equipo/WhatsApp Image 2025-06-02 at 15.28.30.jpeg" alt="">
         </div>
 
         <p>
@@ -404,6 +414,7 @@
         typeSpeed: 100,
         startDelay: 1000,
     });
+
 </script>
 
 </html>

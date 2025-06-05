@@ -54,10 +54,16 @@ $blanco: #f4f6f3;
     }
 
     .hero {
-        background-image: url('../../img/Infraestructura/frente.jpg');
-        background-position: 0% 75%;
+        // background-image: url('../../img/Infraestructura/frente.jpg');
+        // background-position: 0% 75%;
         height: 100vh;
         background-size: cover;
+
+        video {
+            height: 105vh;
+            width: 100vw;
+            object-fit: cover;
+        }
 
         display: flex;
         flex-direction: column;
